@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "charconv": "c",
+        "xmemory": "c",
+        "immintrin.h": "c",
+        "xmmintrin.h": "c",
+        "avx2intrin.h": "c",
+        "avx512fintrin.h": "c",
+        "time.h": "c"
+    }
+}
