@@ -1,4 +1,5 @@
 #include "intrin_test.h"
+#include <math.h>
 
 float sum_scalar(const float *arr, size_t n) {
     float sum = 0.0;
@@ -141,6 +142,6 @@ void print_sum_result(const char *label, double ref, float (*sum_func)(const flo
     float sum = sum_func(arr, n);
     timespec_get(&end, TIME_UTC);
     long elapsed_us = (end.tv_sec - start.tv_sec) * 1000000L + (end.tv_nsec - start.tv_nsec) / 1000L;
-    double error = ref - (double)sum;
+    double error = fabs(ref - (double)sum);
     printf("%-7s sum=%.10f error=%.10f time=%ldus\n", label, sum, error, elapsed_us);
 }

@@ -6,7 +6,7 @@
 #include <immintrin.h>
 #include <time.h>
 
-#define NUM_FLOATS 10000000
+#define NUM_FLOATS 100000000
 
 float sum_scalar(const float *arr, size_t n);
 
