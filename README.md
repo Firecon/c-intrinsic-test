@@ -49,7 +49,7 @@ config:
 xychart-beta
     title "1 Million Floats - Error Comparison"
     x-axis ["Scalar", "AVX2", "AVX2 Improved", "AVX512", "AVX512 Improved"]
-    y-axis "Error" -0.01 --> 0.005
+    y-axis "Error" 0.0 --> 0.009
     bar [0.00817, 0.00275, 0.00013, 0.00376, 0.00001]
 ```
 
@@ -100,7 +100,7 @@ config:
 xychart-beta
     title "10 Million Floats - Error Comparison"
     x-axis ["Scalar", "AVX2", "AVX2 Improved", "AVX512", "AVX512 Improved"]
-    y-axis "Error" -0.02 --> 0.04
+    y-axis "Error" 0.0 --> 0.04
     bar [0.03234, 0.03454, 0.00111, 0.00420, 0.00916]
 ```
 
@@ -151,6 +151,6 @@ config:
 xychart-beta
     title "100 Million Floats - Error Comparison"
     x-axis ["Scalar", "AVX2", "AVX2 Improved", "AVX512", "AVX512 Improved"]
-    y-axis "Error" -1.5 --> 0.5
+    y-axis "Error"  0.0 --> 1.5
     bar [1.43238, 0.06593, 0.30395, 0.37401, 0.11376]
 ```
