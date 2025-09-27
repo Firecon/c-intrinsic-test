@@ -6,6 +6,7 @@
         "xmmintrin.h": "c",
         "avx2intrin.h": "c",
         "avx512fintrin.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "intrin_test.h": "c"
     }
 }
